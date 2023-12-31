@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+  font-size: 24px;  
+  color: #F9FAF8;
+}
+
+.header, .section1 {
+    display: flex;
+    background-color: #1f2937;
+    
+}
