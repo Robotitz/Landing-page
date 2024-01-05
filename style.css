@@ -4,7 +4,12 @@ body {
     min-height: 100vh;
 }
 
-.main-hero {
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero-Title {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
@@ -19,34 +24,26 @@ a {
     text-decoration: none;
 }
 
-.header {
+.header, .hero {
   font-size: 24px;  
   color: #F9FAF8;
   background-color: #1f2937;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 100px;
-  padding-left: 150px;
   padding-right: 150px;
-}
-
-.header-links {
-  display: flex ;
-  justify-content: flex-end;
-  gap: 25px;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.left-side {
-  display: flex ;
-  flex-direction: column;
-  align-items: baseline;
-  margin-right: 50px;
+  padding-left: 150px;
 }
 
 button {
   background-color: #3882f6;
   color: white;
+}
+
+.header_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
 }
