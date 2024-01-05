@@ -9,18 +9,6 @@ body {
   color: #F9FAF8;
   background-color: #1f2937;
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
-
-.top-half{
-  display: flex;
-  justify-content: space-between;
-}
-
-.bottom-half {
-  display: flex;
- justify-content: space-between;
-}
-
 
