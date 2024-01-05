@@ -1,7 +1,7 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .logo {
@@ -15,21 +15,23 @@ body {
   color: #F9FAF8;
 }
 
-.secondary-hero, a {
+.secondary-hero,
+a {
   font-size: 18px;
   color: #e5e7eb;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.header, .hero {
-  font-size: 24px;  
+.header,
+.hero {
+  font-size: 24px;
   color: #F9FAF8;
   background-color: #1f2937;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 300px;
+  padding-left: 300px;
 }
 
 button {
@@ -37,7 +39,7 @@ button {
   color: white;
 }
 
-.header_wrapper{
+.header_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
