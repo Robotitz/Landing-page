@@ -38,12 +38,6 @@ button {
   color: white;
 }
 
-.header_wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .hero {
   display: flex;
   justify-content: space-between;
@@ -57,7 +51,42 @@ button {
   padding-right: 15px;
   border-radius: 8px;
   font-weight: bold;
-
 }
 
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 52px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.info{
+  max-width: 200px;
+}
+
+.second-hero{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.Abstract {
+width: 510px;
+height: auto;
+}
