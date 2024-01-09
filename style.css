@@ -24,6 +24,7 @@ a {
 a {
   text-decoration: none;
 }
+
 .header,
 .hero {
   font-size: 24px;
@@ -81,17 +82,40 @@ img {
   margin-right: auto;
 }
 
-.info{
+.info {
   max-width: 200px;
+  text-align: center;
 }
 
-.second-hero{
+.second-hero {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
 }
 
 .Abstract {
-width: 510px;
-height: auto;
+  width: 510px;
+  height: auto;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+
+
